@@ -1,4 +1,10 @@
-a {
+@media(max-width:1159px) {
+   body{
+    background-color: blue;
+   }
+}
+  @media (min-width: 1200px) {
+   a {
     text-decoration: none;
   }
   #link {
@@ -199,4 +205,5 @@ a {
     border: 3px solid black;
     background-color:white;
     border-radius: 100px;
+  }
   }
