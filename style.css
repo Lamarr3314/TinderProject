@@ -1,0 +1,202 @@
+a {
+    text-decoration: none;
+  }
+  #link {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    color: brown;
+    font-style: bold;
+    background-color: burlywood;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  #newUser {
+    border-radius: 50%;
+  }
+  #topUser {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #loadUser {
+    display: flex;
+    flex-direction: row;
+  }
+  #newUser {
+    margin-left: 750px;
+  }
+  #profile {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  #Name {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    margin-bottom: 20px;
+  }
+  #selection {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #selection p {
+    text-align: center;
+  }
+  #topDog img {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+  }
+  /* .favorites {
+    margin-top: 300px;
+  } */
+  #checkboxes {
+    margin-top: 0px;
+  }
+  #checkboxes p {
+    font-style: normal;
+  }
+  #leftNav1 {
+    /* display: flex;
+    flex-direction: row;
+    border: 5px solid black ; */
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    background-color: blanchedalmond;
+  }
+  #rightNav1 {
+    list-style-type: none;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    background-color: blanchedalmond;
+  }
+  #checkboxes {
+    display: inline-block;
+  }
+  #page1 {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 380px;
+  }
+  body{
+    top: 0;
+  }
+  #Titles {
+    text-align: right;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    /* border-radius: 50px; */
+    margin-left: 60px;
+  }
+  #Titles p {
+    color: black;
+  }
+  #myCheck1,
+  #myCheck2,
+  #myCheck3 {
+    height: 25px;
+    width: 25px;
+  }
+  #heartImg {
+    margin-left: 170px;
+    margin-top: 130px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  #heartbtn {
+    margin-left: 150px;
+    border: none;
+    border-radius: 100px;
+  }
+  #loadUser img {
+    width: 100px;
+    height: 100px;
+  }
+  #WingSpan {
+    font-size: 30px;
+  }
+  #favorites div {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 60px;
+    margin-right: 34px;
+    background-color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #backgroundCustomizations{
+    margin-top: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  }
+  #Backgrounds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #Backgrounds button {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #description{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #title{
+    margin-top: 100px;
+  }
+  #title, #answer{
+    font-size: 22px;
+    margin-left:30px;
+    padding-left: 20px;
+    border: 3px solid black;
+    background-color:white;
+    border-radius: 100px;
+  }
+  #reasons div{
+    font-size: 19px;
+    text-align: center;
+    margin-left:200px;
+    margin-top:2px;
+    border: 3px solid black;
+    background-color:white;
+    border-radius: 100px;
+  }

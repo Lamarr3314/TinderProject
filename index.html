@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="data.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page1">
+      <div id="topUser">
+        <div id="Name"><p></p></div>
+        <div id="WingSpan"><p></p></div>
+        <div><img src="" alt="" id="profileImg" /></div>
+      </div>
+      <div id="loadUser">
+        <button id="newUser" type="button">
+          <img
+            src="https://st3.depositphotos.com/1688079/17280/i/450/depositphotos_172803128-stock-photo-next-arrow-icon-green-round.jpg"
+            alt="Go"
+          />
+        </button>
+        <button id="heartbtn" type="button">
+          <img src="" id="heartImg1" />
+        </button>
+      </div>
+      <div id="profile"></div>
+      <div id="leftNav1">
+        <div id="selection">
+          <div id="checkboxes">
+            <table>
+              <tr>
+                <th>
+                  <p>Select your Homo Sapien preference</p>
+                </th>
+              </tr>
+              <tr>
+                <td><label for="myCheck1">Men:</label></td>
+                <td><input type="checkbox" id="myCheck1" /></td>
+              </tr>
+              <br />
+              <tr>
+                <td><label for="myCheck2">Women:</label></td>
+                <td><input type="checkbox" id="myCheck2" /></td>
+              </tr>
+              <br />
+              <tr>
+                <td><label for="myCheck3">Anyone:</label></td>
+                <td><input type="checkbox" id="myCheck3" /></td>
+              </tr>
+              <br />
+            </table>
+          </div>
+        </div>
+        <div id="backgroundCustomizations">
+          <h1>Choose a Background Color</h1>
+          <div id="Backgrounds">
+            <button id="blueBack">Blue</button>
+            <button id="redBack">Red</button>
+            <button id="greyBack">Grey</button>
+            <button id="yellowBack">Yellow</button>
+            <button id="orangeBack">Orange</button>
+            <button id="greenBack">Green</button>
+            <button id="whiteBack">White</button>
+          </div>
+        </div>
+        <div id="aiSelect">
+          <table>
+            <tr>
+              <th>
+                <p>Do you want to use the SmartSuggest Algorithm?</p>
+              </th>
+            </tr>
+            <tr>
+              <td><label for="yesBox">Yes:</label></td>
+              <td><input type="checkbox" id="yesBox" /></td>
+            </tr>
+            <tr>
+              <td><label for="noBox">No:</label></td>
+              <td><input type="checkbox" id="noBox" /></td>
+            </tr>
+          </table>
+        </div>
+        <div id="description">
+          <div id="Names"></div>
+          <div id="Age"></div>
+          <div id="Location"></div>
+          <div id="Birthday"></div>
+        </div>
+        <div id="aiSection">
+          <div id="title">SmartSuggest Results:</div>
+          <div id="answer"></div>
+          <div id="reasons"></div>
+        </div>
+      </div>
+      <div id="rightNav1">
+        <div><img src="" alt="" id="heartImg" /></div>
+
+        <button id="Titles">
+          <a href="#nextPage" id="goToNextPage"><p>Favorites</p></a>
+        </button>
+        <div id="favorites"></div>
+      </div>
+    </div>
+  </body>
+</html>
