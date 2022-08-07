@@ -129,7 +129,7 @@ newUser.onclick = function () {
   usrname.innerHTML =
     data.results[permaNum].name.first + " " + data.results[permaNum].name.last;
   wingSpan.innerHTML =
-    "Wingpan: " + Math.floor(Math.random() * 100) + " inches";
+    "Wingspan: " + Math.floor(Math.random() * 100) + " inches";
   profileImg.src = data.results[permaNum].picture.medium;
   console.log(likedIndex);
   console.log(toggleLiked);
