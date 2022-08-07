@@ -5,6 +5,7 @@ let birthday = document.getElementById("Birthday");
 let addie = document.getElementById("Location");
 let age = document.getElementById("Age");
 let men = document.getElementById("myCheck1");
+let pref;
 let women = document.getElementById("myCheck2");
 let answer = document.getElementById("answer");
 let reasons = document.getElementById("reasons");
@@ -32,6 +33,7 @@ let aiSelection = document.getElementById("aiSelect");
 let aiSection = document.getElementById("aiSection");
 let whiteBack = document.getElementById("whiteBack");
 let dName = document.getElementById("Names");
+let toggleMenu = document.getElementById("toggleMenu");
 let description = document.getElementById("description");
 let redBack = document.getElementById("redBack");
 let goToNextPage = document.getElementById("Titles");
@@ -39,6 +41,7 @@ let orangeBack = document.getElementById("orangeBack");
 let page1 = document.getElementById("page1");
 let backCust = document.getElementById("backgroundCustomizations");
 let backColor;
+let toggleTrue = false;
 let nreasonArray = [];
 let yreasonArray = [];
 let result;
@@ -55,6 +58,9 @@ for (let i = 0; i < data.results.length; i++) {
     womenIndex.push(i);
   }
 }
+if(window.innerWidth<=700 && toggleLiked){
+  rNav1.style.display = "none";
+}
 curHeart.src = "images/whiteHeart.png";
 heart.src = "images/whiteHeart.png";
 aiSection.style.display = "none";
@@ -63,6 +69,19 @@ console.log(menIndex);
 console.log(womenIndex);
 console.log(permaNum);
 // console.log(data.results[0].name)
+toggleMenu.onclick = function () {
+  if (!toggleTrue) {
+    lNav1.style.display = "block";
+    rNav1.style.display = "block";
+    toggleTrue = true;
+  } else {
+    lNav1.style.display = "none";
+    rNav1.style.display = "none";
+    toggleTrue = false;
+  }
+  if(toggleLiked){
+    rNav1.style.display = "none";}
+};
 men.onclick = function () {
   if (men.checked == true) {
     loadUser.style.display = "flex";
@@ -85,6 +104,9 @@ all.onclick = function () {
   }
 };
 newUser.onclick = function () {
+  // if(window.innerWidth<=700){
+  //   rNav1.style.display = "none";
+  // }
   reasons.innerHTML = "";
   if (toggleLiked) {
     permaNum = likedIndex[passthrough];
@@ -308,6 +330,9 @@ goToNextPage.onclick = function () {
   backCust.style.display = "none";
   selection.style.display = "none";
   aiSelection.style.display = "block";
+  // if(window.innerWidth<=700){
+  //   rNav1.style.display = "none";
+  // }
 };
 yesBox.onclick = function () {
   aiSelection.style.display = "block";
